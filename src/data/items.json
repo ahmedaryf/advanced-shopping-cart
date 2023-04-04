@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "productName": "iPhone",
+        "price": 900,
+        "imageUrl": "/images/iPhone.jpg" 
+    },
+    {
+        "id": 2,
+        "productName": "Laptop",
+        "price": 1200,
+        "imageUrl": "/images/macbook.jpg" 
+    },
+    {
+        "id": 3,
+        "productName": "Airpod",
+        "price": 500,
+        "imageUrl": "/images/airpod-max.jpg" 
+    },
+    {
+        "id": 4,
+        "productName": "Apple Watch",
+        "price": 850,
+        "imageUrl": "/images/appleWatch.jpg" 
+    },
+    {
+        "id": 5,
+        "productName": "iPad Pro",
+        "price": 1150,
+        "imageUrl": "/images/iPad.jpg" 
+    }
+]
+
