@@ -3,5 +3,5 @@ const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined, {
     style: "currency" });
 
 export function formatCurreny(number: number){
-    CURRENCY_FORMATTER.format(number)
+    return CURRENCY_FORMATTER.format(number)
 }

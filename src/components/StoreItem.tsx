@@ -18,8 +18,8 @@ export function StoreItem({id, productName, price, imageUrl}: StoreItemProps) {
             <Card.Img variant='top' src={imageUrl} height="200px" style={{width:"250px", objectFit: "cover"}}/>
             <Card.Body className='d-flex flex-column'>
               <Card.Title className='d-flex justify-content-around align-items-baseline mb-4'>
-                <span className='fs-2'>{productName}</span>
-                <span className='ms-2 text-muted'>{price}</span>
+                <span className='fs-3'>{productName}</span>
+                <span style={{fontSize: "1rem"}} className='ms-2 text-muted'>{formatCurreny(price)}</span>
               </Card.Title>
               <div className='mt-auto'>
                 {quantity === 0 ? (
